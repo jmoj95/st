@@ -84,29 +84,29 @@ static char termname[] = "st-256color";
 static unsigned int tabspaces = 8;
 
 /* bg opacity */
-static const int alpha = 0xdd;
+static const int alpha = 0xee;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#565575", /* black */
+	"#ff8080", /* red */
+	"#95ffa4", /* green */
+	"#ffe9aa", /* yellow */
+	"#91ddff", /* blue */
+	"#c991e1", /* magenta */
+	"#aaffe4", /* cyan */
+	"#cbe3e7", /* white */
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#100e23", /* black */
+	"#ff5458", /* red */
+	"#62d196", /* green */
+	"#ffb378", /* yellow */
+	"#65b2ff", /* blue */
+	"#906cff", /* magenta */
+	"#63f2f1", /* cyan */
+	"#a6b3cc", /* white */
 
 	[255] = 0,
 
